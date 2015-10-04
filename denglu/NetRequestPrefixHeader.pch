@@ -1,0 +1,40 @@
+//
+//  NetRequestPrefixHeader.pch
+//  NetRequestGetDemo
+//
+//  Created by Hailong.wang on 15/8/18.
+//  Copyright (c) 2015年 Hailong.wang. All rights reserved.
+//
+
+#ifndef NetRequestGetDemo_NetRequestPrefixHeader_pch
+#define NetRequestGetDemo_NetRequestPrefixHeader_pch
+
+#define BaseURL @"http://10.0.8.8/sns/"
+
+/**************
+ 注册：GET/POST
+ /my/register.php
+ 
+ 参数        类型         说明
+ username  string		用户名
+ password  string		 密码
+ email     string		 邮箱
+ **************/
+#define RegisterUrl @"my/register.php"
+/**************
+ 登录：GET/POST
+ /my/login.php
+ 
+ 参数          类型         说明
+ username    string       用户名
+ password    string		  密码
+ **************/
+#define LoginUrl @"my/login.php"
+
+#define UploadImageUrl @"my/upload_headimage.php"
+
+#define tuichuUrl @"my/logout.php"
+
+
+
+#endif
